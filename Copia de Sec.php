@@ -14,7 +14,7 @@ class Sec extends CI_Controller {
 			$this->redirectArea();
 		}
 	}
-
+	//Hola
 	public function redirectArea()
 	{
 		$permiso = $this->session->userdata('permiso');
